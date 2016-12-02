@@ -1,0 +1,85 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "ca9cac86-32ac-4523-b258-8f29187e831a"
+    html:
+      beautify_on_save: true
+    js:
+      brace_style: "collapse-preserve-inline"
+      break_chained_methods: true
+    xml:
+      beautify_on_save: true
+  "atom-material-ui":
+    colors:
+      abaseColor: "#008000"
+      accentColor: "#ffcf2b"
+      genAccent: true
+    fonts:
+      fontSize: 14
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autoclose-html":
+    forceInline: [
+      "*"
+    ]
+    makeNeverCloseSelfClosing: false
+    neverClose: [
+      "br"
+      "attribute"
+      "condition"
+      "hr"
+      "img"
+      "input"
+      "link"
+      "meta"
+      "area"
+      "base"
+      "col"
+      "command"
+      "embed"
+      "keygen"
+      "param"
+      "source"
+      "track"
+      "wbr"
+      "attribute"
+      ""
+    ]
+  "color-picker":
+    preferredFormat: "HEX"
+    uppercaseColorValues: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "monokai"
+    ]
+  editor:
+    fontFamily: "Operator Mono"
+    fontSize: 13
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "2eb9acbd-f410-6e65-508b-bc19bee61e93"
+  linter:
+    errorPanelHeight: 135
+  "linter-jshint":
+    lintInlineJavaScript: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "seti-ui":
+    font: "Default Atom Font"
+    themeColor: "Red"
+  welcome:
+    showOnStartup: false
+".text.todo":
+  editor:
+    tabLength: 4
